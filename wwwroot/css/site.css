@@ -72,3 +72,17 @@ body {
 main {
     background-color: aqua ;
 }
+body {
+    background-color: aqua
+}
+
+.container {
+    background-color: white
+}
+
+.display-4 {
+    font-family: "Pacifico";
+}
+
+.footer {
+    background-color: aqua;
