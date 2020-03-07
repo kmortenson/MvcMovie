@@ -26,7 +26,8 @@ namespace MvcMovie.Models
                         ReleaseDate = DateTime.Parse("2011-1-1"),
                         Genre = "History",
                         Rating = "NR",
-                        Price = 14.99M
+                        Price = 14.99M,
+                        ImagePath = 
                     },
 
                     new Movie
