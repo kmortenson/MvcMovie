@@ -172,25 +172,18 @@ img {
 
 /* added CSS*/
 main {
-    background-color: aqua;
-}
-
-header {
-    background-color: blue;
+    background-color: lightslategray
 }
 
 body {
-    background-color: aqua
+    background-color: lightslategray
 }
 
 .container {
-    background-color: aqua
+    background-color: lightslategray
 }
 
 .display-4 {
     font-family: "Pacifico";
 }
 
-.footer {
-    background-color: blue;
-}

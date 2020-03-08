@@ -1,10 +1,10 @@
 ﻿@model MvcMovie.Models.MovieGenreViewModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "LDS Movies List";
 }
 
-<h1>List Of Movies</h1>
+<h1>List of Movies to Educate and Inspire.</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -39,9 +39,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Movies[0].Rating)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Imagepath)
-            </th>
+            
             <th></th>
         </tr>
     </thead>
@@ -64,9 +62,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Rating)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Imagepath)
-            </td>
+            
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
