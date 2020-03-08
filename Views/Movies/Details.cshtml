@@ -46,10 +46,11 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Imagepath)
         </dd>
+        <dd class="col-sm-10">
+            <img src="@Url.Content(Model.Imagepath)" />
+        </dd>
     </dl>
-    <div class="movieImage">
-        <img scr="@Url.Content(Model.Imagepath)" style="width:15%">
-    </div>
+   
    
     <div>
         <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
