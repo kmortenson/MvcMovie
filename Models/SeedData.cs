@@ -27,7 +27,7 @@ namespace MvcMovie.Models
                         Genre = "History",
                         Rating = "NR",
                         Price = 14.99M,
-                        Imagepath = "wwwroot / img / 17Miracles.jpg"
+                        Imagepath = "~/img/17Miracles.jpg"
                     },
 
                     new Movie
@@ -37,7 +37,7 @@ namespace MvcMovie.Models
                         Genre = "Adventure",
                         Rating = "NR",
                         Price = 14.99M,
-                        Imagepath = "wwwroot / img / EphrainsRescue.jpg"
+                        Imagepath = "~/img/EphrainsRescue.jpg"
                     },
 
                     new Movie
@@ -47,7 +47,7 @@ namespace MvcMovie.Models
                         Genre = "Documentary",
                         Rating = "NR",
                         Price = 19.99M,
-                        Imagepath = "wwwroot/img/Ultimate_Questions.jpg"
+                        Imagepath = "~/img/Ultimate_Questions.jpg"
                     },
 
                     new Movie
@@ -57,7 +57,7 @@ namespace MvcMovie.Models
                         Genre = "Documentary",
                         Rating = "NR",
                         Price = 12.99M,
-                        Imagepath = "wwwroot/img/Bk_Mormon_New_World_DNA.jpg"
+                        Imagepath = "~/img/Bk_Mormon_New_World_DNA.jpg"
                     }
                 );
                 context.SaveChanges();
